@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+.whitebox{
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    margin: 2px;
+    padding: 8px;
+    display: inline-block;
+    border: 2px solid blue;
+}
+.img-box{
+    background-image: url('./Ganesha-Rangoli-Design-For-Vinayaka-Chavithi.jpg');
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+    cursor: pointer;}
+.hold{
+    border:3px solid red;
+}
+.hide{
+    display:none;
+}
+.dashed{
+    background-color: blue;
+    border: 3px dashed red;
+}
